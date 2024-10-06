@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="app.js" defer></script>
+</head>
+
+    
+<body>
+        <div id="mainContainer">
+            <h1 id="title">Dessert</h1>
+
+            <div class="mainFlex">
+              
+                <div id="cardGrid">
+              
+                            
+              
+              
+                    
+      
+                <div class="card" id="nine">
+                        <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="">
+                        <button class="addCart" onclick="addCartChange()"><img src="./assets/images/icon-add-to-cart.svg" alt=""><span>Add to Cart</span></button>
+                        <h4 class = 'nameLocator'>Vanilla Panna Cotta</h4>
+                        <h2>Panna Cotta</h2>
+                        <h3>$6.50</h3>
+                      </div> 
+              
+                </div>
+        
+
+                <!-- html for the cart -->
+
+                 <div class="cartContainer">
+                  <div>
+                    <h1 style="color: red; text-align: center;">Your Cart has <span class="cartItemNumber"> 0 </span> items</h1>
+                  </div>
+                <div class="cartDiv" >
+                  <div class="cart" >
+                  
+                  <div class="itemList">
+                   
+
+                  
+                  </div>
+
+                    <div class="cartFlexDiv">
+                          <!-- <img class="img1" src="./assets/images/illustration_empty_cart.svg" alt=""> -->
+                    </div>
+                    
+                </div>
+                </div>
+        
+                    <div class="total">
+                      <span id="one">Order Total</span><span id="sumTotal">$46.50</span>
+                    </div>
+                    
+                    <div class="carbonNeutral">
+                      <img src="./assets/images/icon-carbon-neutral.svg" alt="">
+                      <p>This is a <span style="font-weight: 900;">carbon-neutral</span> delivery</p>
+                    </div>
+
+                    
+                      <button class="confirm"> Confirm Order</button>
+                    
+
+                </div>
+                  
+            </div>
+        </div>
+
+
+</body>
+</html>
