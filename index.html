@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="app.js" defer></script>
+    
 </head>
 
     
@@ -22,14 +22,14 @@
               
               
                     
-      
+<!--       
                 <div class="card" id="nine">
                         <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="">
-                        <button class="addCart" onclick="addCartChange()"><img src="./assets/images/icon-add-to-cart.svg" alt=""><span>Add to Cart</span></button>
+                        <button class="addCart" onclick="cartBtnSwitch()"><img src="./assets/images/icon-add-to-cart.svg" alt=""><span>Add to Cart</span></button>
                         <h4 class = 'nameLocator'>Vanilla Panna Cotta</h4>
                         <h2>Panna Cotta</h2>
                         <h3>$6.50</h3>
-                      </div> 
+                </div>  -->
               
                 </div>
         
@@ -41,7 +41,7 @@
                     <h1 style="color: red; text-align: center;">Your Cart has <span class="cartItemNumber"> 0 </span> items</h1>
                   </div>
                 <div class="cartDiv" >
-                  <div class="cart" >
+                  <div class="carts" >
                   
                   <div class="itemList">
                    
@@ -50,14 +50,14 @@
                   </div>
 
                     <div class="cartFlexDiv">
-                          <!-- <img class="img1" src="./assets/images/illustration_empty_cart.svg" alt=""> -->
+                          <img class="img1" src="./assets/images/illustration_empty_cart.svg" alt=""> 
                     </div>
                     
                 </div>
                 </div>
         
                     <div class="total">
-                      <span id="one">Order Total</span><span id="sumTotal">$46.50</span>
+                      <span id="one">Order Total</span><span id="sumTotal"></span>
                     </div>
                     
                     <div class="carbonNeutral">
@@ -74,6 +74,6 @@
             </div>
         </div>
 
-
+<script src="app.js"></script>
 </body>
 </html>
